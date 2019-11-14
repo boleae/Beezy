@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="55c495577e33400d86b67cec5638eefa" Name="Diagram1">
+        <EntityTypeShape EntityType="beezycinemaModel.Cinema" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="beezycinemaModel.City" Width="1.25" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="beezycinemaModel.Genre" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="beezycinemaModel.Movie" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="beezycinemaModel.MovieGenre" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="beezycinemaModel.Room" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="beezycinemaModel.Session" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="beezycinemaModel.FK_Cinema_City" ManuallyRouted="false" />
+        <AssociationConnector Association="beezycinemaModel.FK_Room_Cinema" ManuallyRouted="false" />
+        <AssociationConnector Association="beezycinemaModel.FK_Session_Movie" ManuallyRouted="false" />
+        <AssociationConnector Association="beezycinemaModel.FK_Session_Room" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,13 @@
+2019-11-13 16:30:18,549 [6] INFO  BeezyTest.Log.Log4NetLogger [(null)] - Comienza el proceso
+2019-11-13 16:30:29,036 [6] ERROR BeezyTest.Log.Log4NetLogger [(null)] - Exception
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en BeezyTest.Controllers.ManagersController.GetIntelligentBillboard(SmartBillboardRequest request) en C:\Users\emilio.bolea\source\repos\BeezyTest\BeezyTest\Controllers\ManagersController.cs:línea 63
+2019-11-13 16:53:51,259 [7] ERROR BeezyTest.Log.Log4NetLogger [(null)] - Referencia a objeto no establecida como instancia de un objeto.
+2019-11-13 16:54:00,358 [7] ERROR BeezyTest.Log.Log4NetLogger [(null)] - Referencia a objeto no establecida como instancia de un objeto.
+2019-11-13 16:54:05,410 [6] ERROR BeezyTest.Log.Log4NetLogger [(null)] - Referencia a objeto no establecida como instancia de un objeto.
+2019-11-13 16:54:40,698 [7] ERROR BeezyTest.Log.Log4NetLogger [(null)] - Referencia a objeto no establecida como instancia de un objeto.
+2019-11-13 17:20:24,538 [6] ERROR BeezyTest.Log.Log4NetLogger [(null)] - Referencia a objeto no establecida como instancia de un objeto.
+2019-11-13 17:20:43,871 [6] ERROR BeezyTest.Log.Log4NetLogger [(null)] - Referencia a objeto no establecida como instancia de un objeto.
+2019-11-13 18:30:45,118 [6] ERROR BeezyTest.Log.Log4NetLogger [(null)] - Exception
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en BeezyTest.Controllers.ManagersController.GetIntelligentBillboard(SmartBillboardRequest request) en C:\Users\emilio.bolea\source\repos\BeezyTest\BeezyTest\Controllers\ManagersController.cs:línea 65
