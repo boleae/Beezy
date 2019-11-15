@@ -111,7 +111,8 @@ namespace BeezyTest.Controllers
             {
                 foreach(var error in  value.Errors)
                 {
-                    errorMessage.Append(error.Exception.Message + Environment.NewLine);
+                    errorMessage.Append(error.Exception != null ? error.Exception.Message : error.ErrorMessage);
+                    errorMessage.Append(Environment.NewLine);
                 }
             }
 

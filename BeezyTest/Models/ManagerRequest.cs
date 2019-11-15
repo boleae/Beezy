@@ -28,8 +28,9 @@ namespace BeezyTest.Models
 
     public class BillboardRequest:ManagerRequest
     {
-        [Required]
-        //[JsonProperty(PropertyName = "numberOfWeeks")]
+        [Range(1,24)]
+        [Required()]
+        [JsonProperty(PropertyName = "numberOfWeeks")]
         public int NumberOfWeeks { get; set; }
         [JsonProperty(PropertyName = "city")]
         public string City { get; set; }
@@ -45,10 +46,11 @@ namespace BeezyTest.Models
     public class SmartBillboardRequest:BillboardRequest
     {
 
-
+        [Range(1, 50)]
         [Required]
         [JsonProperty(PropertyName = "screensBigRooms")]
         public int ScreensInBigRooms { get; set; }
+        [Range(1, 50)]
         [Required]
         [JsonProperty(PropertyName = "screensSmallRooms")]
         public int ScreensInSmallRooms { get; set; }
